@@ -8,16 +8,16 @@
 	<simpara>
 		<revhistory>
 			<revision>
-				<revnumber>0-0</revnumber>
-				<date>Wed Mar 9 2011</date>
+				<revnumber>0</revnumber>
+				<date>Miércoles 09-03-2011</date>
 				<author>
-					<firstname>Dude</firstname>
-					<surname>McPants</surname>
-					<email>Dude.McPants@example.com</email>
+					<firstname>Eduardo</firstname>
+					<surname>Farías R.</surname>
+					<email>eduardo.farias@tau-it.cl</email>
 				</author>
 				<revdescription>
 					<simplelist>
-						<member>Initial creation of book by publican</member>
+						<member>Creación de borrador</member>
 					</simplelist>
 				</revdescription>
 			</revision>
