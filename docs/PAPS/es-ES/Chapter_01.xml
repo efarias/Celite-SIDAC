@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "PAPS.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-PAPS-Chapter_01">
+	<title>Resumen del Proyecto</title>
+	<para>
+		Actualmente Celite Chile Ltda, departamento de Aseguramiento de la Calidad, 
+		cuenta con una aplicación de laboratorio, en el cual son registrados los datos capturadosi  		de diversos procesos que se llevan a cabo en dicho departamento.
+	</para>	
+
+	<section id="sect-PAPS-Chapter_01-Proposito">
+		<title>Propósito</title>
+		<para>
+			El presente proyecto de software está destinado al departamento de Aseguramiento de la Calidad, de la planta Arica de Celite Chile Ltda.
+		</para>
+		<para>
+			Se requiere el desarrollo de un sistema informático de gestión de los registros, cálculos, reportes y certificados, que se llevan a cabo en el departamento de Aseguramiento de la Calidad.
+</para>	
+</section>
+	
+
+</chapter>
+
