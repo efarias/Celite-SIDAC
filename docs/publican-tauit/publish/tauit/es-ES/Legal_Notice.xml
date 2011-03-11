@@ -3,10 +3,8 @@
 ]>
 <legalnotice>
 	<para>
-		Copyright &lt;trademark class="copyright"&gt;&lt;/trademark&gt; &amp;YEAR; &amp;HOLDER;
+		Copyright <trademark class="copyright"></trademark> &YEAR; &HOLDER;.
 	</para>
-	<para>
-		SETUP: Enter the blurb for your license here. Often a short description of the license with a URL linking to the full text.
-	</para>
+
 </legalnotice>
 

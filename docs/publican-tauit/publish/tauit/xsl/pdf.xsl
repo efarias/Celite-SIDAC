@@ -1,11 +1,9 @@
 <?xml version='1.0'?>
  
 <!--
-	Copyright 2007 Red Hat, Inc.
+	Copyright 2011 Tau-iT Informática
 	License: GPL
-	Author: Jeff Fearn <jfearn@redhat.com>
-	Author: Tammy Fox <tfox@redhat.com>
-	Author: Andy Fitzsimon <afitzsim@redhat.com>
+	Author: Eduardo Farías R. <eduardo.farias@tau-it.cl>
 -->
 
 <!DOCTYPE xsl:stylesheet [
