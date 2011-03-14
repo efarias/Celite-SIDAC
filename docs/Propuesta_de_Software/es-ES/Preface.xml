@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE preface PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "PAPS.ent">
+%BOOK_ENTITIES;
+]>
+<preface id="pref-Propuesta_de_Software-Preface">
+	<title>Acerca de este documento</title>
+	<section>
+		<title>Propósito y Alcance </title>
+		<para>
+                Este documento describe la propuesta de software que cumpla
+				con los requerimientos para el departamento de Aseguramiento
+				de la Calidad, Celite Chile Ltda, planta Chacalluta.
+        </para>
+        <para>
+        	Éste documento será reforzado con el Plan de Administración del
+			proyecto de Software (PAPS) en caso de ser aprovado.
+		</para>
+        <para>
+			Se especifican los requerimientos generales y de mayor importancia
+			que han sido conversados con el cliente; Se expone un marco de
+			trabajo, planificación general, plazos y entregables.
+		</para>
+		<para>
+			Se adjuntan anexos con carta gantt y presupuesto de las etapas que
+			conlleva del desarrollo del presente proyecto de software.
+		</para>
+	</section>
+<section>
+	<title>Historial de revisiones del Documento</title>
+    <para>
+	    <revhistory>
+        	<revision>
+            	<revnumber>0.1</revnumber>
+                <date>Martes 08-03-2011</date>
+                <author>
+                	<firstname>Eduardo</firstname>
+                    <surname>Farías R.</surname>
+                    <email>eduardo.farias@tau-it.cl</email>
+                </author>
+                <revdescription>
+                	<simplelist>
+                    	<member>Documento Creado. Cod. SIDAC-2</member>
+                    </simplelist>
+				</revdescription>
+			</revision>
+		</revhistory>
+        </para>
+		<para>
+        	<revhistory>
+            	<revision>
+					<revnumber>0.2</revnumber>
+                    <date>Miércoles 09-03-2011</date>
+                    <author>
+                    	<firstname>Eduardo</firstname>
+                        <surname>Farías R.</surname>
+                        <email>eduardo.farias@tau-it.cl</email>
+                    </author>
+                    <revdescription>
+                    	<simplelist>
+                        	<member>
+							Primera versión del	documento creado por
+							Tau-iT, necesita ser revizado por el cliente
+							Celite Chile Ltda.
+							</member>
+                        </simplelist>
+                    </revdescription>
+                </revision>
+             </revhistory>
+        </para>
+</section>
+</preface>

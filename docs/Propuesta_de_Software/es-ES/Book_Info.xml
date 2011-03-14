@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE bookinfo PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Propuesta_de_Software.ent">
+%BOOK_ENTITIES;
+]>
+<bookinfo id="book-Propuesta_de_Software-Propuesta_de_Software">
+	<title>Propuesta de Software</title>
+	<subtitle>Sistema Informático Departamento de Aseguramiento de la Calidad</subtitle>
+	<productname>Celite SIDAC</productname>
+	<productnumber>1.0</productnumber>
+	<edition>0.1</edition>
+	<pubsnumber>0</pubsnumber>
+	<abstract>
+		<para>
+			Propuesta de desarrollo de Software, incluye carta gantt y
+			prepuesto de las etapas de desarrollo.
+		</para>
+	</abstract>
+	<corpauthor>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="Common_Content/images/title_logo.jpg" format="JPG" />
+			</imageobject>
+		</inlinemediaobject>
+	</corpauthor>
+	<xi:include href="Common_Content/Legal_Notice.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Author_Group.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+</bookinfo>
+
