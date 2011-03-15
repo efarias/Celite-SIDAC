@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Propuesta_de_Software.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Propuesta_de_Software-Chapter02">
+	<title>Organización del Proyecto</title>
+	<section id="sect-Propuesta_de_Software-Chapter02-Roles">
+		<title>Participantes y Roles</title>
+		<para>
+			Considerando el inicio del proyecto, fases de diseño, desarrollo e
+			iumplementación. Dividido en 4 iteraciones principales o Springs,
+			se corresponden los siguientes roles:
+		<variablelist>
+			<title>Roles</title>
+			<varlistentry>
+				<term>Interesados (Stakeholders)</term>
+				<listitem>
+				<para>
+					Dentro de la terminología de desarrollo de proyectos de software,
+					los stakeholder o interesados, corresponden a las personas que
+					están directamente interesadas en el desarrollo del proyecto y que
+					están definidas por el cliente, en este caso corresponden a:
+					<orderedlist>
+						<listitem>
+						<para>
+							Ruben Copa, Jefe de Laboratorio Celite Chile Ltda.
+						</para>
+						</listitem>
+						<listitem>
+						<para>
+							Sergio Mancilla, Gerente departamento de Aseguramiento de la
+							Calidad, Celite Chile Ltda.
+						</para>
+						</listitem>
+						<listitem>
+						<para>
+							Rodrigo Cancino, Analista IT Celite Chile Ltda. 
+						</para>
+						</listitem>
+					</orderedlist>
+				</para>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+				<term>Scrum Master</term>
+				<listitem>
+				<para>
+					El desarrollador en este caso cumple las siguientes
+					funciones: Analista, diseñador, programador y documentador del
+					sistema.
+				</para>
+				<orderedlist>
+				<listitem>
+				<para>
+					Eduardo Farías R. Tau-iT Informática.
+				</para>
+				</listitem>
+				</orderedlist>
+				</listitem>
+			</varlistentry>
+			<varlistentry>
+			<term>Manager</term>
+			<listitem>
+			<para>
+				El administrador o Manager del proyecto es quien establece el
+				ambiente para el desarrollo del proyecto, encargado de la
+				gestión.
+			</para>
+				<orderedlist>
+				<listitem>
+				<para>
+				Carol Osorio C. Tau-iT Informática.
+				</para>
+				</listitem>
+				</orderedlist>
+			</listitem>
+			</varlistentry>
+		</variablelist>
+		</para>
+	</section>
+	
+	<section id="sect-Propuesta_de_Software-Chapter02-Interfaces_externas">
+		<title>Interfaces Externas</title>
+		<para>
+			A continuación se describen los módulos y aplicaciones que
+			formarán parte del sistema informático del departamento de
+			Aseguramiento de la Calidad.
+		</para>
+		<section>
+			<title>Celite-Sidac-Core</title>
+			<para>
+			El módulo o aplicación Celite-Sidac-Core, es la base del sistema.
+			Consiste en el módulo que realiza la conexión con la base de
+			datos, muestra al usuario una interfaz web de la aplicación para
+			autentificarse y luego ingresar al sistema con los permisos que
+			corresponda de acuerdo al rol que se le haya asignado.
+			</para>
+			<para>
+			Éste módulo estará encargado de enlazar a las diferentes
+			aplicaciones que componen el sistema.
+			</para>
+		</section>
+		<section>
+			<title>Celite-Sidac-CoreAdmin</title>
+			<para>
+			Éste módulo implmenta la funcionalidad que se requiere, para
+			administrar la creación, edición o eliminación, de los capos y
+			parámetros que se utilizarán en el registro o reportes de muestras
+			del sistema. A través de éste módulo será posible crear, editar,
+			mostrar o esconder campos, como por ejemplo, creación de nuevos
+			silos, tipos de productos (en proceso, terminado, etc), nuevos
+			parámetros como mallajes, nuevas variables, etc.
+			</para>
+		</section>
+		<section>
+			<title>Celite-Sidac-Labs</title>
+			<para>
+			Éste módulo corresponde al sistema de ingreso, modificación,
+			eliminación y visualización de registros para los procesos
+			llevados a cabo por el laboratorio de aseguramiento de la calidad.
+			</para>
+		</section>
+		<section>
+			<title>Celite-Sidac-biserver</title>
+			<para>
+			Éste modulo es un servidor de minería de datos, el cual sustrae
+			los registros que se han ingresado al servidor de bases de datos y
+			genera reportes de acuerdo a los filtros y parámetros definidos
+			por el usuario.
+			</para>
+		</section>
+		<section>
+			<title>Celite-Sidac-Minas</title>
+			<para>
+			Éste módulo estará encargado de los procesos relacionados con el
+			ingreso, edición, eliminación y visualización de los registros
+			correspondientes a Minerales, muestras de acopios, etc.
+			</para>
+			<para>
+			Éste módulo se enlazará con el Sistema Repmin (Reportes de minas)
+			del departamento de minas, para generar reportes de stock y
+			control de calidad de los Acopios.
+			</para>
+		</section>
+		<section>
+			<title>Celite-Sidac-CalidadCerts</title>
+			<para>
+			Celite-Sidac-CalidadCerts, será el módulo encargado de generar los
+			certificados de calidad, de acuerdo a los requerimientos que
+			corresponden a este proceso de negocios.
+			</para>
+			<para>
+			El módulo obtendrá los datos necesarios desde la base de datos,
+			realizará los cálculos que sean necesarios y dará como salida un
+			certificado en formato PDF imprimible o archivable.
+			</para>
+		<para>
+			Cada una de estás aplicaciones y módulos, conforman el cuadro
+			general del sistema, cada módulo estará formado por submódulos y
+			librerías que serán estudiadas, diseñadas e implementadas a través
+			del desarrollo del proyecto en cada iteración.
+		</para>
+	</section>
+</section>
+<section>
+	<title>Aspectos Técnicos</title>
+	<para>
+	El sistema será construido basándose en herramientas de uso libre, no
+	dependiente de la plataforma, flexibles y altamente escalable, pensando en
+	unambiente productivo, lo más libre de fallas o caidas que sea posible y
+	de ambiente empresarial.
+	</para>
+	<para>
+	Para lograr cubrir este requerimiento se ha cosiderado utilizar las
+	siguientes herramientas tecnológicas:
+	</para>
+		<section>
+		<title>Sistema de Gestión de Bases de datos Relacional</title>
+		<para>
+		Se ha considerado utilizar la última versión disponible del servidor
+		MySQL, dada su capacidad de manejar grandes cantidades de registros, su
+		escalabilidad y disponibilidad para entornos productivos críticos.
+		Considerando además que la empresa ya cuenta con una implementación de
+		bases de datos MySQL.
+		</para>
+		</section>
+		<section>
+		<title>Lenguaje de programación y Frameworks</title>
+		<para>
+		Se utilizará Java J2ee, JSP y taglibs, haciendo uso principalmente del
+		framework Spring, debido a que es el framework mayormente utilizado en
+		ambientes empresariales y con mayor cantidad de años en desarrollo
+		activo y constantemente evolucionando hacia los nuevos estándares de
+		la programación orientada a objetos y orientada a aspectos.
+		</para>
+		</section>
+		<section>
+		<title>Plataforma</title>
+		<para>
+		Si bien la mayoría de herramientas de desarrollo actuales tienen un
+		mejor uso de recursos en sistemas operativos Unix-Like, en especial
+		Linux, las herramientas a utilizar son independientes de la
+		plataforma, por lo que pueden ser utilizadas bajo cualquier servidor
+		Unix o windows server.
+		</para>
+		</section>
+		<section>
+			<title>Entorno de Desarrollo</title>
+			<para>
+			Tau-iT Informática posee su plataforma de desarrollo basado en
+			software libre, de acuerdo a los últimos estándares y utilizando
+			las herramientas de programación más utilizadas en la industria
+			del software. 
+			</para>
+			<para>
+			Las herramientas del entorno de programación y desarrollo del
+			proyecto de software se enumeran a continuación:
+			<variablelist>
+				<title>Herramientas de desarrollo y Scrum</title>
+				<varlistentry>
+				<term>IDE</term>
+				<listitem>
+				<para>
+				Como IDE se utilizará SpringSource Toool Suite, herramienta
+				desarrollada por la comunidad Spring, para el framework Spring
+				que sirve de base para el desarrollo del proyecto.
+				</para>
+				</listitem>
+				</varlistentry>
+
+				<varlistentry>
+				<term>Administración de Proyecto</term>
+				<listitem>
+				<para>
+				PAra la administración del proyecto, especificación  de
+				requerimientos, revisión de código fuente, integración
+				continua, testeo, manejo de proyecto ágil con Scrum, Tau-iT
+				Informática utiliza la plataforma de desarrollo
+				Atlassian-JIRA, GreenHopper, FishEye y Confluence.
+				</para>
+				</listitem>
+				</varlistentry>
+
+				<varlistentry>
+				<term>Herramientas de testeo y pruebas</term>
+				<listitem>
+				<para>
+				Tau-iT Informática, utiliza máquinas virtuales para el
+				desarrollo de las herramientas, simulando el espacio final
+				donde se implementará el software.
+				</para>
+				</listitem>
+				</varlistentry>
+
+			</variablelist>
+			</para>
+		</section>
+</section>
+</chapter>
+

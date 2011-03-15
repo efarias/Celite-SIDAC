@@ -3,31 +3,185 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Propuesta_de_Software.ent">
 %BOOK_ENTITIES;
 ]>
-<chapter id="chap-Propuesta_de_Software-Test_Chapter">
-	<title>Test Chapter</title>
-	<para>
-		This is a test paragraph
-	</para>
-	<section id="sect-Propuesta_de_Software-Test_Chapter-Test_Section_1">
-		<title>Test Section 1</title>
+<chapter id="chap-Propuesta_de_Software-Chapter01">
+	<title>Vista General del Proyecto</title>
+	<section>
+		<title>Propósito, Alcances y Objetivos</title>
+		<section>
+			<title>Propósito</title>
+			<para>
+				Éste proyecto tiene el propósito de desarrollar un sistema
+				informático completo, para el departamento de Aseguramiento de la
+				calidad, que cumpla con los actuales requerimientos del
+				cliente; Proporcionando un flujo de información centralizado
+				para los diversos procesos que se llevan a cabo en dicho
+				departamento.
+			</para>
+		</section>
+		<section>
+			<title>Alcances</title>
+			<para>
+				Para el planeamiento de este proyecto, se ha considerado los
+				requerimientos generales y el diseño estructural base del
+				sistema. Éste diseño y su planificación, serán revisados y
+				definidos en mayor profundidad una vez sea aceptada esta
+				propuesta de desarrollo.
+			</para>
+		</section>
+		<section>
+			<title>Objetivos</title>
+			<para>
+				Diseñar, desarrollar e implementar un sistema informático para
+				la gestión del flujo centralizado de información del
+				departamento de aseguramiento de la calidad.
+			</para>
+			<para>
+				El sistema contará con una serie de módulos o aplicaciones que
+				funcionarán en conjunto para dar solución a los requerimientos
+				actuales del departamento mencionado.
+			</para>
+			<para>
+				Entre estos requerimientos se cuentan:
+			</para>
+			<para>
+				<orderedlist>
+				<listitem>
+				<para>
+					Software para el ingreso de datos de laboratorio, con la
+					flexibilidad de poder crear, eliminar, editar, mostrar y
+					ocultar campos y parámetros.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Generación de reportes, con la funcionalidad de mostrar u
+					ocultar determinados parámetros y campos definidos por el
+					usuario, filtración de datos y cálculos de parámetros como
+					CPK, Darcy y otros.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Visibilidad a través de la intranet de la empresa, con
+					autentificación de usuarios y definición de permisos por
+					roles.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Aplicación de gestión de procesos para minerales.
+					Formularios de ingreso y visualización de registros de
+					muestras de acopios. Generación de reportes con los
+					resultados e integración con sistema de reportes del
+					departamento de minas.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Generación de certificados de calidad, con la
+					correspondiente edición de datos, cálculo de parámetros
+					como Darcy y otros.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					El sistema debe contar con la flexibilidad y escalabilidad
+					para adecuarse fácilmente a los cambios futuros que
+					experimente la infraestructura informática de la empresa.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Todo el sistema debe ser administrable, con la opción de
+					editar, crear, eliminar, mostrar u ocultar datos, campos y
+					parámetros definidos por el usuario o el administrador del
+					sistema.
+				</para>
+				</listitem>
+				</orderedlist>
+			</para>
+		</section>
+	</section>
+	<section id="sect-Propuesta_de_Software-Chapter01-Entregables">
+		<title>Entregables del Proyecto</title>
 		<para>
-			This is a test paragraph in a section
+			Los entregables del proyecto serán definidos en cada una de las
+			etapas e iteraciones del proyecto, debiendo como mínimos ser los
+			siguientes:
 		</para>
+		<section>
+		<title>El sistema desarrollado</title>
+		<para>
+			<itemizedlist>
+				<listitem>
+				<para>
+					El sistema informático del Departamento de
+					Aseguramiento de la calidad.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Documentación del proyecto, guías de instalación y manual
+					de administración y uso del sistema.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Máquina virtual con el sistema en funcionamiento para su
+					testeo.
+				</para>
+				</listitem>
+				<listitem>
+				<para>
+					Respaldo del sistema en soporte digital (DVD).
+				</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+		</section>
+		<section>
+			<title>Documentación del Sistema</title>
+			<para>
+				Se entregará en cada etapa la documentación correspondiente,
+				la cual incluye todo el proceso de la metodología de
+				desarrollo utilizada, desde la fase de inicio hasta el sistema
+				implementado.
+			</para>
+		</section>
+		<section>
+			<title>Manuales</title>
+			<para>
+				Se presentarán los siguientes manuales para tener un mejor
+				alcance del sistema:
+			</para>
+			<section>
+			<title>Guía de Administración</title>
+			<para>
+			Documento que contiene información de la administración del
+			sistema: Instalación, configuración, autentificación, modificación
+			y creación de campos y parámetros, etc.
+			</para>
+			</section>
+			<section>
+			<title>Guía de Usuario</title>
+			<para>
+			Documento que contiene información del uso de los diferentes
+			módulos, flujos de la información, descripción de las funciones
+			principales del sistema, generación de reportes, certificados,
+			ingreso y visualización de nuevos registros, etc.
+			</para>
+			</section>
+		</section>
+		<section>
+		<title>Evolución del plan de desarrollo del software</title>
+		<para>
+			Una vez aceptado esta propuesta, se procederá a confeccionar el
+			plan de administración del proyecto de software (PAPS), el cual
+			será revizado y redefinido antes del comienzo de cada iteración
+			del proyecto en conjunto con el cliente Celite Chile Ltda.
+		</para>
+		</section>
 	</section>
 	
-	<section id="sect-Propuesta_de_Software-Test_Chapter-Test_Section_2">
-		<title>Test Section 2</title>
-		<para>
-			This is a test paragraph in Section 2
-			<orderedlist>
-				<listitem>
-					<para>
-						listitem text
-					</para>
-				</listitem>
-			</orderedlist>
-		</para>
-	</section>
-
 </chapter>
 

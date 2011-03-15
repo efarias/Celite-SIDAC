@@ -6,8 +6,12 @@
 <book>
 	<xi:include href="Book_Info.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Preface.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="Chapter.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<xi:include href="Revision_History.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
-	<index />
+	<xi:include href="Chapter01.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Chapter02.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Chapter03.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Presupuesto.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Product_Backlog.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Carta_Gantt.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+<!-- <index /> -->
 </book>
 

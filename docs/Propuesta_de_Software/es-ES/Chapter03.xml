@@ -1,0 +1,256 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE chapter PUBLIC "-//OASIS//DTD DocBook XML V4.5//EN" "http://www.oasis-open.org/docbook/xml/4.5/docbookx.dtd" [
+<!ENTITY % BOOK_ENTITIES SYSTEM "Propuesta_de_Software.ent">
+%BOOK_ENTITIES;
+]>
+<chapter id="chap-Propuesta_de_Software-Chapter03">
+	<title>Gestión del Proyecto</title>
+	
+	<section id="sect-Propuesta_de_Software-Chapter03-Plan">
+		<title>Plan del Proyecto</title>
+		<para>
+			Para la planificación del proyecto, Tau-iT Informática utilizará
+			el modelo de trabajo ágil Scrum. En este modelo el plan de
+			desarrollo se divide en "Releases" o entregas y cada entrega está
+			dividida por iteraciones o Springs.	
+		</para>
+		<para>
+			Cada iteración posee su gestión particular consistente en:
+			Especificación de Requerimientos, desarrollo, testeo e
+			implementación.
+		</para>
+		<para>
+			Cada release corresponde a una fase entregable del proyecto,
+			cada etapa o fase corresponde a "milestone" o Hito del proyecto,
+			visible y utilizable por el cliente y por lo tanto Facturable.
+		</para>
+
+		<section>
+		<title>Planificación de las Entregas (Releases)</title>
+		<para>
+			Cada iteración estará dividida por tareas a cumplir. Éstas están
+			conformadas por los requisitos del usuario que se deben satisfacer.
+			Una vez logrados cada requerimiento, se avanza a la siguiente
+			iteración, solo si todas las tareas de la iteración hayan sido
+			completadas.
+		</para>
+		<para>
+			Se han considera 4 releases principales. Cada release es una etapa
+			del software utilizable. Todo el proceso es de tipo incrementable,
+			lo que quiere decir que en cada release se mejoran aspectos
+			detectados del release anterior y se avanza hacia un sistema cada
+			vez más acabado.
+		</para>
+		<para>
+			Las fases del proyecto son las siguientes:
+		</para>
+
+			<section>
+			<title>Versión 0.1</title>
+			<para>
+			Corresponde al Core del sistema. Éste release o fase entregable
+			del proyecto, corresponde a la primera etapa utilizable del
+			proyecto. En ésta se pretende implementar el nuevo sistema para el
+			ingreso de registros de laboratorio y la sección de administración
+			de campos y parámetros.
+			</para>
+			<para>
+			Para el cumplimiento de éste release se ha considerado un esfuerzo
+			de 8 semanas, dividido en 4 iteraciones de 2 semanas cada una en
+			las que el cliente irá viendo el avance del proyecto.(Ver anexos
+			Producto BAcklog y Carta Gantt).
+			</para>
+			<para>
+			<emphasis role="strong">Módulos involucrados:</emphasis>
+			<orderedlist>
+				<listitem>
+				<para>
+				Celite-Sidac-Core
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-CoreAdmin
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-Labs
+				</para>
+				</listitem>
+			</orderedlist>
+			</para>
+			</section>
+
+			<section>
+			<title>Versión 0.2</title>
+			<para>
+			El objetivo principal de este release es el de implementar el
+			motor de reportes al sistema. Al implementar este release, se
+			contará con un sistema completo de reportes de los registros de
+			laboratorio el cual incluye el cálculo de los CPK para productos
+			en proceso y terminados.
+			</para>
+			<para>
+			En éste release, además, se implementarán mejoras para el release anterior,
+			de las fallas o faltas que se pudieran encontrar durante su
+			implementación.
+			</para>
+			<para>
+			Se ha considerado un esfuerzo de 4 semanas con 2 iteraciones de 2
+			semanas cada una. (ver anexos Product Backlog y Carta Gantt)
+			</para>
+			<para>
+			<emphasis role="strong">Módulos Involucrados:</emphasis>
+			<orderedlist>
+				<listitem>
+				<para>
+				Celite-Sidac-Core
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-CoreAdmin
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-Labs
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				<emphasis role="strong">Celite-Sidac-biserver</emphasis>
+				</para>
+				</listitem>
+			</orderedlist>
+			</para>
+			</section>
+
+			<section>
+			<title>Versión 0.3</title>
+			<para>
+			En éste release, se implementará el sistema de minerales, para el
+			control de calidad de acopios. Los módulos involucrados en ésta
+			etapa se integrarán con el sistema de reportes del departamento de
+			minas (Repmin), obteniendo de éste los stock de Acopios y
+			generando los reportes de calidad para los acopios en stock.
+			</para>
+			<para>
+			Se ha considerado para éste realese, un esfuerzo de 4 semanas.
+			</para>
+			<para>
+			<emphasis role="strong">Módulos Involucrados:</emphasis>
+			<orderedlist>
+				<listitem>
+				<para>
+				Celite-Sidac-Core
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-CoreAdmin
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-Labs
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-biserver
+				</para>
+				</listitem>
+	
+				<listitem>
+				<para>
+				<emphasis role="strong">Celite-Sidac-Minas</emphasis>
+				</para>
+				</listitem>
+			</orderedlist>
+			</para>
+			</section>
+
+			<section>
+			<title>Versión 0.4</title>
+			<para>
+			Terminado éste release, el sistema contará con el módulo de
+			creación de certificados de calidad, el cual se encargará de
+			obtener loregistros necesarios, realizar filtros y parametros
+			definidos por el usuario, realizar los cálculos darcy y demás que
+			correspondan para generar los certificados de calidad.
+			</para>
+			<para>
+			Se ha considerado un esfuerzo de 4 semanas para éste release y 2
+			iteraciones de 2 semanas cada una. (Ver anexo Product Backlog y
+			Carta Gantt)
+			</para>
+			<para>
+			<emphasis role="strong">Módulos Involucrados:</emphasis>
+			<orderedlist>
+				<listitem>
+				<para>
+				Celite-Sidac-Core
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-CoreAdmin
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-Labs
+				</para>
+				</listitem>
+
+				<listitem>
+				<para>
+				Celite-Sidac-biserver
+				</para>
+				</listitem>
+	
+				<listitem>
+				<para>
+				Celite-Sidac-Minas
+				</para>
+				</listitem>
+	
+				<listitem>
+				<para>
+				<emphasis role="strong">Celite-Sidac-CalidadCerts</emphasis>
+				</para>
+				</listitem>
+			</orderedlist>
+			</para>
+			</section>
+
+			<section>
+			<title>Version 1.0</title>
+			<para>
+			Éste release corresponde al producto final, entregado, luego de la
+			etapa de pruebas, mejoras y modificaciones a los releases
+			anteriores.
+			</para>
+			<para>
+			Se considera un esfuerzo de 4 semanas para el testeo e
+			implementación final del producto. Terminando ésta etapa el
+			producto pasa a su versión final 1.0.
+			</para>
+			</section>
+		</section>
+	</section>
+	
+</chapter>
+

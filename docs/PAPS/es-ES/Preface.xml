@@ -4,37 +4,68 @@
 %BOOK_ENTITIES;
 ]>
 <preface id="pref-PAPS-Preface">
-	<title>Revision History</title>
-        <para>
-                <revhistory>
-                        <revision>
-                                <revnumber>1</revnumber>
-                                <date>Miércoles 09-03-2011</date>
-                                <author>
-                                        <firstname>Eduardo</firstname>
-                                        <surname>Farías R.</surname>
-                                        <email>eduardo.farias@tau-it.cl</email>
-                                </author>
-                                <revdescription>
-                                        <simplelist>
-                                                <member>Primera versión del documento creado por Tau-iT, necesita ser revizado por el cliente Celite Chile Ltda.</member>
-                                        </simplelist>
-                                </revdescription>
-                        </revision>
-                </revhistory>
-        </para>
-
+	<title>Prefacio</title>
 	<section>
-	<title>Acerca de Este Documento </title>
-<para>
-                Este documento describe el plan de administración para el desarrollo del proyecto de software.
+		<title>Acerca de Este Documento </title>
+		<para>
+                Este documento describe el plan de administración para el
+				desarrollo del proyecto de software.
         </para>
         <para>
-                Se describen a continuación, el propósito, los objetivos y alcances del proyecto, asi como su organización en etapas y logros que se esperan para cada una.
+                Se describen a continuación, el propósito, los objetivos y
+				alcances del proyecto, asi como su organización en etapas y
+				logros que se esperan para cada una.
         </para>
         <para>
-                Debido a la naturaleza del proyecto, el presente documento seguirá un proceso de evolución, a través de revisiones en conjunto entre Tau-iT Informática y Celite Chile Ltda. Acordando en conjunto los requerimientos para el desarrollo del sistema y las modificaciones necesarias al mismo, incluyendo el esquema de trabajo, plazos y entregables.
+                Debido a la naturaleza del proyecto, el presente documento
+				seguirá un proceso de evolución, a través de revisiones en
+				conjunto entre Tau-iT Informática y Celite Chile Ltda.
+				Acordando en conjunto los requerimientos para el desarrollo
+				del sistema y las modificaciones necesarias al mismo,
+				incluyendo el esquema de trabajo, plazos y entregables.
         </para>
 	</section>
+<section>
+	<title>Historial de revisiones del Documento</title>
+    <para>
+	    <revhistory>
+        	<revision>
+            	<revnumber>0</revnumber>
+                <date>Martes 08-03-2011</date>
+                <author>
+                	<firstname>Eduardo</firstname>
+                    <surname>Farías R.</surname>
+                    <email>eduardo.farias@tau-it.cl</email>
+                </author>
+                <revdescription>
+                	<simplelist>
+                    	<member>Documento Creado. Cod. SIDAC-2</member>
+                    </simplelist>
+				</revdescription>
+			</revision>
+		</revhistory>
+        </para>
+		<para>
+        	<revhistory>
+            	<revision>
+					<revnumber>1</revnumber>
+                    <date>Miércoles 09-03-2011</date>
+                    <author>
+                    	<firstname>Eduardo</firstname>
+                        <surname>Farías R.</surname>
+                        <email>eduardo.farias@tau-it.cl</email>
+                    </author>
+                    <revdescription>
+                    	<simplelist>
+                        	<member>
+							Primera versión del	documento creado por
+							Tau-iT, necesita ser revizado por el cliente
+							Celite Chile Ltda.
+							</member>
+                        </simplelist>
+                    </revdescription>
+                </revision>
+             </revhistory>
+        </para>
+</section>
 </preface>
-
