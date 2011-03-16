@@ -3,13 +3,13 @@
 <!ENTITY % BOOK_ENTITIES SYSTEM "Propuesta_de_Software.ent">
 %BOOK_ENTITIES;
 ]>
-<appendix id="appe--Propuesta_de_Software-Product_Backlog">
-	<title>Product Backlog</title>
+<appendix id="appe--Propuesta_de_Software-Diagramas">
+	<title>Diagramas</title>
 	<para>
-		<inlinemediaobject>
+	<inlinemediaobject>
 			<imageobject>
-				<imagedata fileref="images/product_backlog.svg" format="SVG"
-				scale="75"/>
+				<imagedata fileref="images/celite-sidac-dia1.png" format="PNG"
+				scale="60" />
 			</imageobject>
 		</inlinemediaobject>
 

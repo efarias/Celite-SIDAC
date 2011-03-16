@@ -9,6 +9,7 @@
 	<xi:include href="Chapter01.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Chapter02.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Chapter03.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
+	<xi:include href="Diagramas.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Presupuesto.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Product_Backlog.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />
 	<xi:include href="Carta_Gantt.xml" xmlns:xi="http://www.w3.org/2001/XInclude" />

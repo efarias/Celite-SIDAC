@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<project name="Celite-Sidac 1.0" company="" manager="Eduardo Far&#xED;as R." phase="" project-start="20110401T000000Z" mrproject-version="2" calendar="1">
+  <properties/>
+  <phases/>
+  <calendars>
+    <day-types>
+      <day-type id="0" name="Jornada laboral" description="Un d&#xED;a de trabajo predeterminado"/>
+      <day-type id="1" name="Jornada de descanso" description="Un d&#xED;a de descanso predeterminado"/>
+      <day-type id="2" name="Usar base" description="Usar d&#xED;a del calendario base"/>
+    </day-types>
+    <calendar id="1" name="Default">
+      <default-week mon="0" tue="0" wed="0" thu="0" fri="0" sat="0" sun="1"/>
+      <overridden-day-types>
+        <overridden-day-type id="0">
+          <interval start="0800" end="1200"/>
+          <interval start="1300" end="1700"/>
+        </overridden-day-type>
+      </overridden-day-types>
+      <days>
+        <day date="20110316" type="day-type" id="0"/>
+      </days>
+    </calendar>
+  </calendars>
+  <tasks>
+    <task id="1" name="Release 0.1" note="" work="0" duration="1555200" start="20110401T000000Z" end="20110602T170000Z" work-start="20110401T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+      <task id="2" name="An&#xE1;lisis" note="" work="0" duration="201600" start="20110401T000000Z" end="20110408T170000Z" work-start="20110401T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <task id="3" name="An&#xE1;lisis de modelo de negocios" note="" work="0" duration="86400" start="20110401T000000Z" end="20110404T170000Z" work-start="20110401T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration"/>
+        <task id="4" name="An&#xE1;lisis de modelo de datos" note="" work="0" duration="115200" start="20110404T170000Z" end="20110408T170000Z" work-start="20110405T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="3" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="5" name="Dise&#xF1;o" note="" work="0" duration="316800" start="20110408T170000Z" end="20110421T170000Z" work-start="20110409T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="2" type="FS"/>
+        </predecessors>
+        <task id="6" name="Especificaci&#xF3;n de Requerimientos" note="" work="0" duration="115200" start="20110408T170000Z" end="20110413T170000Z" work-start="20110409T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="4" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="7" name="Dise&#xF1;o" note="" work="0" duration="201600" start="20110413T170000Z" end="20110421T170000Z" work-start="20110414T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="6" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="8" name="Desarrollo" note="" work="0" duration="1036800" start="20110421T170000Z" end="20110602T170000Z" work-start="20110422T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="5" type="FS"/>
+        </predecessors>
+        <task id="9" name="Desarrollo BAse de datos" note="" work="0" duration="172800" start="20110421T170000Z" end="20110428T170000Z" work-start="20110422T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="7" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="10" name="M&#xF3;dulo de autentificaci&#xF3;n de usuarios" note="" work="0" duration="172800" start="20110428T170000Z" end="20110505T170000Z" work-start="20110429T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="9" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="11" name="Formularios de ingresos de datos" note="" work="0" duration="345600" start="20110505T170000Z" end="20110519T170000Z" work-start="20110506T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="10" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="12" name="P&#xE1;ginas de visualizaci&#xF3;n de datos" note="" work="0" duration="345600" start="20110519T170000Z" end="20110602T170000Z" work-start="20110520T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="11" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+    </task>
+    <task id="13" name="Release 0.2" note="" work="0" duration="864000" start="20110602T170000Z" end="20110707T170000Z" work-start="20110603T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+      <predecessors>
+        <predecessor id="1" predecessor-id="1" type="FS"/>
+      </predecessors>
+      <task id="14" name="An&#xE1;lisis" note="" work="0" duration="86400" start="20110602T170000Z" end="20110606T170000Z" work-start="20110603T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <task id="15" name="An&#xE1;lisis de Modelo de Datos" note="" work="0" duration="86400" start="20110602T170000Z" end="20110606T170000Z" work-start="20110603T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration"/>
+      </task>
+      <task id="16" name="Dise&#xF1;o" note="" work="0" duration="201600" start="20110606T170000Z" end="20110614T170000Z" work-start="20110607T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="14" type="FS"/>
+        </predecessors>
+        <task id="17" name="Especificaci&#xF3;n de Requerimientos" note="" work="0" duration="86400" start="20110606T170000Z" end="20110609T170000Z" work-start="20110607T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration"/>
+        <task id="18" name="Dise&#xF1;o" note="" work="0" duration="115200" start="20110609T170000Z" end="20110614T170000Z" work-start="20110610T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="17" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+      <task id="19" name="Desarrollo" note="" work="0" duration="576000" start="20110614T170000Z" end="20110707T170000Z" work-start="20110615T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+        <predecessors>
+          <predecessor id="1" predecessor-id="16" type="FS"/>
+        </predecessors>
+        <task id="20" name="Mejoras y Correcciones a release 0.1" note="" work="0" duration="172800" start="20110614T170000Z" end="20110621T170000Z" work-start="20110615T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration"/>
+        <task id="21" name="Implementaci&#xF3;n de motor de reportes" note="" work="0" duration="115200" start="20110621T170000Z" end="20110625T170000Z" work-start="20110622T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="20" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="22" name="Desarrollo de reportes" note="" work="0" duration="172800" start="20110625T170000Z" end="20110702T170000Z" work-start="20110627T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="21" type="FS"/>
+          </predecessors>
+        </task>
+        <task id="23" name="Implementaci&#xF3;n en el sistema" note="" work="0" duration="115200" start="20110702T170000Z" end="20110707T170000Z" work-start="20110704T080000Z" percent-complete="0" priority="500" type="normal" scheduling="fixed-duration">
+          <predecessors>
+            <predecessor id="1" predecessor-id="22" type="FS"/>
+          </predecessors>
+        </task>
+      </task>
+    </task>
+  </tasks>
+  <resource-groups/>
+  <resources/>
+  <allocations/>
+</project>
