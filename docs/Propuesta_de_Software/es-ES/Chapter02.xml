@@ -9,7 +9,7 @@
 		<title>Participantes y Roles</title>
 		<para>
 			Considerando el inicio del proyecto, fases de diseño, desarrollo e
-			iumplementación. Dividido en 4 iteraciones principales o Springs,
+			implementación. Dividido en 5 iteraciones principales o Springs,
 			se corresponden los siguientes roles:
 		<variablelist>
 			<title>Roles</title>
@@ -53,7 +53,8 @@
 				<orderedlist>
 				<listitem>
 				<para>
-					Eduardo Farías R. Tau-iT Informática.
+					Eduardo Farías R. Tau-iT Informática,
+					<emphasis>eduardo.farias@tau-it.cl</emphasis>.
 				</para>
 				</listitem>
 				</orderedlist>
@@ -65,12 +66,13 @@
 			<para>
 				El administrador o Manager del proyecto es quien establece el
 				ambiente para el desarrollo del proyecto, encargado de la
-				gestión.
+				gestión y documentación interna del proyecto.
 			</para>
 				<orderedlist>
 				<listitem>
 				<para>
-				Carol Osorio C. Tau-iT Informática.
+				Carol Osorio C. Tau-iT Informática,
+				<emphasis>carol.osorio@tau-it.cl</emphasis>.
 				</para>
 				</listitem>
 				</orderedlist>
@@ -85,7 +87,8 @@
 		<para>
 			A continuación se describen los módulos y aplicaciones que
 			formarán parte del sistema informático del departamento de
-			Aseguramiento de la Calidad.
+			Aseguramiento de la Calidad (Ver Diagrama de componentes adjunto
+			en el apéndice A).
 		</para>
 		<section>
 			<title>Celite-Sidac-Core</title>
@@ -104,8 +107,8 @@
 		<section>
 			<title>Celite-Sidac-CoreAdmin</title>
 			<para>
-			Éste módulo implmenta la funcionalidad que se requiere, para
-			administrar la creación, edición o eliminación, de los capos y
+			Éste módulo implementa la funcionalidad que se requiere, para
+			administrar la creación, edición o eliminación, de los campos y
 			parámetros que se utilizarán en el registro o reportes de muestras
 			del sistema. A través de éste módulo será posible crear, editar,
 			mostrar o esconder campos, como por ejemplo, creación de nuevos
@@ -167,9 +170,9 @@
 	<title>Aspectos Técnicos</title>
 	<para>
 	El sistema será construido basándose en herramientas de uso libre, no
-	dependiente de la plataforma, flexibles y altamente escalable, pensando en
-	unambiente productivo, lo más libre de fallas o caidas que sea posible y
-	de ambiente empresarial.
+	dependiente de la plataforma, flexibles y altamente escalables, pensando en
+	un ambiente productivo, lo más libre de fallas o caidas que sea posible y
+	de nivel empresarial.
 	</para>
 	<para>
 	Para lograr cubrir este requerimiento se ha cosiderado utilizar las
@@ -233,9 +236,9 @@
 				<term>Administración de Proyecto</term>
 				<listitem>
 				<para>
-				PAra la administración del proyecto, especificación  de
+				Para la administración del proyecto, especificación  de
 				requerimientos, revisión de código fuente, integración
-				continua, testeo, manejo de proyecto ágil con Scrum, Tau-iT
+				contínua, testeo, manejo de proyecto ágil con Scrum, Tau-iT
 				Informática utiliza la plataforma de desarrollo
 				Atlassian-JIRA, GreenHopper, FishEye y Confluence.
 				</para>

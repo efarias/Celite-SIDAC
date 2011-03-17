@@ -19,7 +19,7 @@
 	<corpauthor>
 		<inlinemediaobject>
 			<imageobject>
-				<imagedata fileref="Common_Content/images/title_logo.jpg" format="JPG" />
+				<imagedata fileref="images/logo.jpg" format="JPG" scale="30" />
 			</imageobject>
 		</inlinemediaobject>
 	</corpauthor>

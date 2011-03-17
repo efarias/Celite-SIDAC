@@ -35,7 +35,7 @@
 			completadas.
 		</para>
 		<para>
-			Se han considera 4 releases principales. Cada release es una etapa
+			Se han considerado 5 releases principales. Cada release es una etapa
 			del software utilizable. Todo el proceso es de tipo incrementable,
 			lo que quiere decir que en cada release se mejoran aspectos
 			detectados del release anterior y se avanza hacia un sistema cada
@@ -58,7 +58,7 @@
 			Para el cumplimiento de éste release se ha considerado un esfuerzo
 			de 8 semanas, dividido en 4 iteraciones de 2 semanas cada una en
 			las que el cliente irá viendo el avance del proyecto.(Ver anexos
-			Producto BAcklog y Carta Gantt).
+			Producto Backlog y Carta Gantt).
 			</para>
 			<para>
 			<emphasis role="strong">Módulos involucrados:</emphasis>
@@ -185,7 +185,7 @@
 			<para>
 			Terminado éste release, el sistema contará con el módulo de
 			creación de certificados de calidad, el cual se encargará de
-			obtener loregistros necesarios, realizar filtros y parametros
+			obtener los registros necesarios, realizar filtros y parametros
 			definidos por el usuario, realizar los cálculos darcy y demás que
 			correspondan para generar los certificados de calidad.
 			</para>

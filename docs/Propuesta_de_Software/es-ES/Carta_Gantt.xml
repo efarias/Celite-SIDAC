@@ -6,6 +6,13 @@
 <appendix id="appe--Propuesta_de_Software-Carta_gantt">
 	<title>Carta Gantt</title>
 	<para>
-	-
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="images/Carta_Gantt.svg" format="SVG"
+				scale="75" />
+			</imageobject>
+		</inlinemediaobject>
+
+
 	</para>
 </appendix>

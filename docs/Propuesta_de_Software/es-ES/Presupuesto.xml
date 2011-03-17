@@ -6,6 +6,13 @@
 <appendix id="appe--Propuesta_de_Software-Presupuesto">
 	<title>Presupuesto</title>
 	<para>
+		<inlinemediaobject>
+			<imageobject>
+				<imagedata fileref="images/Presupuesto.svg" format="SVG"
+				scale="75" />
+			</imageobject>
+		</inlinemediaobject>
+
 
 	</para>
 </appendix>
